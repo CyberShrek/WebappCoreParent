@@ -7,6 +7,7 @@
     <groupId>org.vniizht</groupId>
     <artifactId>WebappParent</artifactId>
     <version>SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -68,4 +69,5 @@
         </dependency>
 
     </dependencies>
+
 </project>
