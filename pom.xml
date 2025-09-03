@@ -18,7 +18,7 @@
         <jackson.version>2.19.2</jackson.version>
         <hikari.version>4.0.3</hikari.version>
         <poi.version>4.1.2</poi.version>
-        <postgresql.version>42.7.3</postgresql.version>
+        <postgresql.version>42.2.18</postgresql.version>
     </properties>
 
     <dependencies>
@@ -53,7 +53,7 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
-<!--            <scope>provided</scope>-->
+            <scope>provided</scope>
         </dependency>
 
         <!-- VNIIZHT -->
